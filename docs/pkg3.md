@@ -14,4 +14,6 @@ and do the following:
 ]
 pkg> activate .
 (<project name>) pkg> add <Dependency>
+pkg> activate
+pkg> resolve
 ```
