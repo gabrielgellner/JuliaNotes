@@ -17,3 +17,13 @@ pkg> activate .
 pkg> activate
 pkg> resolve
 ```
+
+## Add dependency to local package
+Using the command line navigate to the package direction, start julia and do:
+```
+]
+pkg> activate .
+(<project name>) pkg> add "path to local package"
+pkg> activate
+pkg> resolve
+```
