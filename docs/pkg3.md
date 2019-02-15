@@ -23,7 +23,7 @@ Using the command line navigate to the package direction, start julia and do:
 ```
 ]
 pkg> activate .
-(<project name>) pkg> add "path to local package"
-pkg> activate
+(<project name>) pkg> add "path to local package" # can also you dev if you are working on the dependency locally
+pkg> activate # go to the top level environment (the default julia environment)
 pkg> resolve
 ```
